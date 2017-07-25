@@ -3,8 +3,8 @@ var lienzo = d.getContext("2d");
 
 
 
-dibujarLinea("purple, 10, 300, 220, 10");
-dibujarLinea("purple, 300, 10, 10, 220");
+dibujarLinea("purple", 10, 300, 220, 10);
+dibujarLinea("purple", 300, 10, 10, 220);
 
 function dibujarLinea(color, xinicial, yinicial, xfinal, yfinal)
 {
