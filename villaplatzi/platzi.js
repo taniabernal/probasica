@@ -8,12 +8,15 @@ fondo.addEventListener("load", dibujar);
 
 var vaca = new Image();
 vaca.src = "vaca.png";
+vaca.addEventListener("load", dibujarVacas);
 
 var cerdo = new Image();
 cerdo.src = "cerdo.png";
+cerdo.addEventListener("load", dibujarCerdos);
 
 var pollo = new Image();
 pollo.src = "pollo.png";
+pollo.addEventListener("load", dibujarPollos);
 
 function dibujar()
 {
