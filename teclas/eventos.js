@@ -6,14 +6,14 @@ var teclas = {
 };
 console.log(teclas);
 
-document.addEventListener("keyup", dibujarTeclado);
+document.addEventListener("keydown", dibujarTeclado);
 
 var cuadrito = document.getElementById("area_de_dibujo");
 var papel = cuadrito.getContext("2d");
 var x = 150;
 var y = 150;
 
-dibujarLinea("#5CFFB9", 149, 149, 151, 151, papel);
+dibujarLinea("#39094F", 149, 149, 151, 151, papel);
 
 function dibujarLinea(color, xinicial, yinicial, xfinal, yfinal, lienzo)
 {
